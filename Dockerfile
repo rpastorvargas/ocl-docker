@@ -22,7 +22,7 @@ ADD ./ocl_assests/ /ocl_assests_template
 RUN mkdir /scripts
 
 # Copy the scripts directory
-COPY ./scripts/* /scripts
+COPY ./scripts/* /scripts/
 
 # Start App
 # CMD ["/scripts/start_app.sh"]
