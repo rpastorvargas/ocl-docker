@@ -101,8 +101,8 @@ echo "[hit enter key to exit] or run 'docker stop <container>'"
 read
 
 # stop service and clean up here
-echo "stopping tomcat"
-catalins.sh stop
+echo "stopping tomcat, after the read command"
+catalina.sh stop
 # shutdown.sh
 
 echo "exited $0"
